@@ -8,6 +8,9 @@ meteor-platform
 meteorhacks:flow-router
 meteorhacks:flow-layout
 ongoworks:security
-materialize:materialize
 meteorhacks:fast-render
 jquery
+useraccounts:materialize
+accounts-password
+fourseven:scss
+poetic:materialize-scss
