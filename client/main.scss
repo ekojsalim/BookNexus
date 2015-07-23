@@ -13,9 +13,33 @@ main {
 	flex: 1 0 auto;
 }
 
+.at-form {
+	@extend .white-text;
+}
+
+.col.s12.m8.offset-m2.l4.offset-l4.z-depth-1 {
+	@extend .z-depth-0;
+	margin-top: 10%;
+}
+
+.at-error {
+	margin-bottom: 40px;
+}
+
+.at-btn {
+	margin: 15px 0;
+}
 
 .page-footer {
 	background: transparent !important;
+}
+
+h3.header {
+	font-weight: 300;
+}
+
+label.active {
+	@extend .teal-text;
 }
 
 #home-nav {
@@ -33,7 +57,7 @@ main {
 	height: 100%;
 	z-index: -1;
 
-	background:url("/account-cover.jpg") no-repeat center center fixed, black;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/account-cover.jpg") no-repeat center center fixed, black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
